@@ -24,12 +24,12 @@ radius = 200
 arcade.draw_circle_filled(x, y, radius, arcade.color.YELLOW)
 
 # Draw the right eye
-x = 370
+x = 400
 y = 350
 radius = 20
 arcade.draw_circle_filled(x, y, radius, arcade.color.BLACK)
 
-# Draw the left eye
+# Draw the left eyes
 x = 230
 y = 350
 radius = 20
@@ -49,3 +49,4 @@ arcade.finish_render()
 
 # Keep the window open until the user hits the 'close' button
 arcade.run()
+thank you
